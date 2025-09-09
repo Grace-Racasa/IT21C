@@ -1,9 +1,9 @@
 // Declare Variables
-let name = "Grace Racasa";
-let course = "Bachelor of Science in Information Technology";
-let yearLevel = "secomd year";
+// let name = "Grace Racasa";
+// let course = "Bachelor of Science in Information Technology";
+// let yearLevel = "secomd year";
 
-console.log("Name: " + name + "\n" + "Course: " + course + "\n" + "Year Level: " + yearLevel);
+// console.log("Name: " + name + "\n" + "Course: " + course + "\n" + "Year Level: " + yearLevel);
 
 // Operators
 let hoursOfSleep = 8;
@@ -24,5 +24,16 @@ let subjects = ["OOP", "Event-Driven Prog.", "Elective 1 (Web System and Technol
 
 console.log("My Subjects:");
 for (let i = 0; i < subjects.length; i++){
+    
     console.log("- " + subjects[i]);
 }
+
+// functions
+let name = "Grace Racasa";
+let course = "Bachelor of Science in Information Technology";
+let yearLevel = "secomd year";
+
+function displayInfo(){
+    console.log("Name: " + name + "Course: " + course + "Year Level: " + yearLevel);
+}
+console.log(displayInfo());
