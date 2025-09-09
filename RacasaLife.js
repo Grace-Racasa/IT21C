@@ -19,4 +19,10 @@ if (hoursOfStudy >= 5){
     console.log("You need study more.");
 }
 
+//loops
+let subjects = ["OOP", "Event-Driven Prog.", "Elective 1 (Web System and Technology)", "DataStuctures", "Fundamentals of Networks"];
 
+console.log("My Subjects:");
+for (let i = 0; i < subjects.length; i++){
+    console.log("- " + subjects[i]);
+}
