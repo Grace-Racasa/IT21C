@@ -1,7 +1,7 @@
 // Declare Variables
 let name = "Grace Racasa";
 let course = "Bachelor of Science in Information Technology";
-let yearLevel = "secomd year";
+let yearLevel = "second year";
 
  console.log("Name: " + name + "\n" + "Course: " + course + "\n" + "Year Level: " + yearLevel);
 
@@ -28,3 +28,9 @@ for (let i = 0; i < subjects.length; i++){
     
     console.log("- " + subjects[i]);
 }
+
+// functions
+function displayInfo(){
+    return "My name is " + name + " a " + yearLevel + " from " + course + "."; 
+}
+console.log(displayInfo());
