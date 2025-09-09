@@ -54,5 +54,3 @@ function greet(name){
 
 greet("Grace");
 greet("Racasa");
-greet("John");
-greet("Doe");
